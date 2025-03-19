@@ -32,7 +32,7 @@ export default function Home() {
           </HoverBorderGradient>
 
           {/* Email Button */}
-          <HoverBorderGradient as={"a" as "a"} href="mailto:kartik.bhaba16@gmail.com">
+          <HoverBorderGradient as="a" href="mailto:kartik.bhaba16@gmail.com">
             Email Me
            </HoverBorderGradient>
 
