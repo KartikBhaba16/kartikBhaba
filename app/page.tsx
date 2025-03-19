@@ -32,9 +32,10 @@ export default function Home() {
           </HoverBorderGradient>
 
           {/* Email Button */}
-          <HoverBorderGradient as="a" href="mailto:kartik.bhaba16@gmail.com">
+          <HoverBorderGradient as={"a" as "a"} href="mailto:kartik.bhaba16@gmail.com">
             Email Me
-          </HoverBorderGradient>
+           </HoverBorderGradient>
+
 
           {/* Resumé Button */}
           <HoverBorderGradient as="a" href="/KB_resume.pdf" target="_blank" rel="noopener noreferrer">
@@ -43,5 +44,8 @@ export default function Home() {
         </div>
       </main>
     </div>
-  );
+  
+
+
+);
 }
